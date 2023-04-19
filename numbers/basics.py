@@ -86,4 +86,21 @@ print(s1)
 s2 = {1,3,'yo',8}
 print(s1.union(s2))
 print(s1.intersection(s2))
+
+# IF Statement
+a = 10
+b = 20
+c = 30
+if a>b & a>c :
+    print("a is greates")
+elif b>a & b>c :
+    print("b is greatest")
+else:
+    print("c is grestest")
+l1 = [1,2,3,4]
+if l1[3]==5:
+    l1[3] = l1[3]+10
+else:
+    l1[3] = l1[3]+20
+print(l1)
 """
