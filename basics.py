@@ -1,4 +1,3 @@
-"""
 print("Starting my Python journey")
 
 a = 2+5j
@@ -104,7 +103,7 @@ if l1[3]==5:
 else:
     l1[3] = l1[3]+20
 print(l1)
-"""
+
 # Looping
 i,n = 1,2
 while i<=10:
