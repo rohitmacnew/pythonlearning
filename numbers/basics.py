@@ -1,5 +1,6 @@
-print("Starting my Python journey")
 """
+print("Starting my Python journey")
+
 a = 2+5j
 c1 = a, type(a) 
 print("Type of variable")
@@ -104,3 +105,13 @@ else:
     l1[3] = l1[3]+20
 print(l1)
 """
+# Looping
+i,n = 1,2
+while i<=10:
+    print(n,'*',i,'=',n*i)
+    i = i+1
+l1 = ['brown','black','pink']
+l2 = ['panther','mulgi']
+for i in l1:
+    for j in l2:
+        print(i,j)
