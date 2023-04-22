@@ -1,4 +1,4 @@
-class employee :
+class Employee :
     def getAge(int):
         return 27
     def getName(str):
@@ -10,7 +10,7 @@ class employee :
     def getGender(bool):
         return True
 
-rohit = employee()
+rohit = Employee()
 print(rohit.getAge())
 print(rohit.getName())
 print(rohit.getEmail())
