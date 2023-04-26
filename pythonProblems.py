@@ -1,4 +1,4 @@
-'''
+
 # Check Even/Odd
 num = int(input("Enter the number: "))
 if num%2==0:
@@ -58,7 +58,7 @@ class Employee:
         print("Gender of employee:",self.gender)
 e1 = Employee('Rohit',27,"Male")
 e1.employeeDetails()
-'''
+
 # Roots of Quadratic Equoation
 import math
 a = int(input("Enter a:"))
