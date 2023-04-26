@@ -1,3 +1,4 @@
+'''
 # Check Even/Odd
 num = int(input("Enter the number: "))
 if num%2==0:
@@ -57,3 +58,20 @@ class Employee:
         print("Gender of employee:",self.gender)
 e1 = Employee('Rohit',27,"Male")
 e1.employeeDetails()
+'''
+# Roots of Quadratic Equoation
+import math
+a = int(input("Enter a:"))
+b = int(input("Enter b:"))
+c = int(input("Enter c:"))
+D = (b*b)-(4*a*c)
+if D>=0:
+    r1 = (-b+(math.sqrt(D)))/(2*a)
+    r2 = (-b-(math.sqrt(D)))/(2*a)
+    print("Root 1 :",round(r1,2))
+    print("Root 2 :",round(r2,2))
+else:
+    rp = -b/(2*a)
+    ip = (math.sqrt(-D))/(2*a)
+    print("Root 1 :",rp,"+",round(ip,2))
+    print("Root 2 :",rp,"-",round(ip,2))
