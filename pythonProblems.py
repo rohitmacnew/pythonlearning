@@ -93,4 +93,20 @@ def cost_of_ring(engraving, solid_gold):
 
 cost_of_ring("Charlie+Denver", True)
 cost_of_ring("08/10/2000", False)
+
+# Cost of Water Bill
+def get_water_bill(num_gallons):
+    if num_gallons>=0 and num_gallons<=8000:
+        bill = 5*num_gallons/1000
+    elif num_gallons>=8001 and num_gallons<=22000:
+        bill = 6*num_gallons/1000
+    elif num_gallons>=22001 and num_gallons<=30000:
+        bill = 7*num_gallons/1000
+    else:
+        bill = 10*num_gallons/1000
+    print("Water bill for this month = Rs.",bill)
+
+get_water_bill(7000)
+get_water_bill(25000)
+get_water_bill(50000)
 '''
