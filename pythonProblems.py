@@ -1,4 +1,4 @@
-
+'''
 # Check Even/Odd
 num = int(input("Enter the number: "))
 if num%2==0:
@@ -85,3 +85,12 @@ get_expected_cost(4,4)
 get_expected_cost(7,3)
 get_expected_cost(7,3)
 get_expected_cost(7,5)
+
+# Cost of Ring
+def cost_of_ring(engraving, solid_gold):
+    cost = ((not solid_gold) *(50+(len(engraving)*7))) + (solid_gold *(100+(len(engraving)*10)))
+    print("Cost of ring =",cost)
+
+cost_of_ring("Charlie+Denver", True)
+cost_of_ring("08/10/2000", False)
+'''
