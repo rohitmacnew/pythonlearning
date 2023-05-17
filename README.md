@@ -9,3 +9,6 @@ This file contains basics of Python
 
 ### pythonProblems.py
 This file have basic python problems form Great Learning course
+
+### carInheritance.py
+This file explaoins Inheritanc ein python with an example of Car

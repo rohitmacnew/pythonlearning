@@ -75,3 +75,13 @@ else:
     ip = (math.sqrt(-D))/(2*a)
     print("Root 1 :",rp,"+",round(ip,2))
     print("Root 2 :",rp,"-",round(ip,2))
+
+# Cost of House
+def get_expected_cost(beds, baths):
+    value = 80000+(beds*30000)+(baths*10000)
+    print("House Cost with",beds,"beds and",baths,"baths =",value)
+
+get_expected_cost(4,4)
+get_expected_cost(7,3)
+get_expected_cost(7,3)
+get_expected_cost(7,5)
