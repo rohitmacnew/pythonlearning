@@ -1,4 +1,4 @@
-'''
+
 # Check Even/Odd
 num = int(input("Enter the number: "))
 if num%2==0:
@@ -109,4 +109,3 @@ def get_water_bill(num_gallons):
 get_water_bill(7000)
 get_water_bill(25000)
 get_water_bill(50000)
-'''
