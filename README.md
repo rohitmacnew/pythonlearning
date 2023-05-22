@@ -11,4 +11,7 @@ This file contains basics of Python
 This file have basic python problems form Great Learning course
 
 ### carInheritance.py
-This file explaoins Inheritanc ein python with an example of Car
+This file explains Inheritanc ein python with an example of Car
+
+### w3schools.py
+This file contains all the practices while learning from W3Schools

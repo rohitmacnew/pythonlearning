@@ -18,4 +18,7 @@ class myclass():
     return 0
 myobj = myclass()
 print(bool(myobj))
+
+thislist = list(("apple", "banana", "cherry"))
+print(thislist)
 '''
