@@ -21,4 +21,15 @@ print(bool(myobj))
 
 thislist = list(("apple", "banana", "cherry"))
 print(thislist)
+
+thislist = ["apple", "banana", "cherry"]
+thislist.insert(2, "watermelon")
+tropical = ["mango", "pineapple", "papaya"]
+thislist.extend(tropical)
+for x in thislist:
+  print(x)
+
+fruits = ["apple", "banana", "cherry", "kiwi", "mango"]
+newlist = [x for x in fruits if "a" in x]
+print(newlist)
 '''
