@@ -21,8 +21,6 @@ print(bool(myobj))
 
 thislist = list(("apple", "banana", "cherry"))
 print(thislist)
-
-thislist = ["apple", "banana", "cherry"]
 thislist.insert(2, "watermelon")
 tropical = ["mango", "pineapple", "papaya"]
 thislist.extend(tropical)
@@ -33,7 +31,33 @@ fruits = ["apple", "banana", "cherry", "kiwi", "mango"]
 newlist = [x for x in fruits if "a" in x]
 print(newlist)
 
-def my_function(*kids):
-  print("The youngest child is " + kids[2])
-my_function("Emil", "Tobias", "Linus")
+# Polymorphism
+
+class Car:
+  def __init__(self, brand, model):
+    self.brand = brand
+    self.model = model
+  def move(self):
+    print("Drive!")
+
+class Boat:
+  def __init__(self, brand, model):
+    self.brand = brand
+    self.model = model
+  def move(self):
+    print("Sail!")
+
+class Plane:
+  def __init__(self, brand, model):
+    self.brand = brand
+    self.model = model
+  def move(self):
+    print("Fly!")
+
+car1 = Car("Ford", "Mustang")       #Create a Car class
+boat1 = Boat("Ibiza", "Touring 20") #Create a Boat class
+plane1 = Plane("Boeing", "747")     #Create a Plane class
+
+for x in (car1, boat1, plane1):
+  x.move()
 '''
