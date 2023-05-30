@@ -39,7 +39,6 @@ class Car:
     self.model = model
   def move(self):
     print("Drive!")
-
 class Plane:
   def __init__(self, brand, model):
     self.brand = brand
@@ -49,7 +48,10 @@ class Plane:
 
 car1 = Car("Ford", "Mustang")       #Create a Car class
 plane1 = Plane("Boeing", "747")     #Create a Plane class
-
 for x in (car1, plane1):
   x.move()
+
+import datetime
+x = datetime.datetime.now()
+print(x.strftime("%c"))
 '''
