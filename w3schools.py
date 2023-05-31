@@ -54,4 +54,9 @@ for x in (car1, plane1):
 import datetime
 x = datetime.datetime.now()
 print(x.strftime("%c"))
+
+import re
+txt = "The rain in Spain"
+x = re.findall("ai", txt)
+print(x)
 '''
