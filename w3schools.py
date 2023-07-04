@@ -72,4 +72,7 @@ finally:
 x = -1
 if x < 0:
   raise Exception("Sorry, no numbers below zero")
+
+x = input("Enter the name")
+print(x)
 '''
