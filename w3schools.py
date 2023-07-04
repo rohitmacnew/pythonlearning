@@ -75,4 +75,9 @@ if x < 0:
 
 x = input("Enter the name")
 print(x)
+
+age = 27
+name = "Rohit"
+txt = "His name is {1}. {1} is {0} years old."
+print(txt.format(age, name))
 '''
